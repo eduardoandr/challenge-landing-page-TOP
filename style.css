@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto";
+  padding: 15px;
+  margin: 0;
+  border: 0;
+  height: 100vh;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  position: relative;
+
+}
+
+.logo {
+  padding: 25px;
+  margin-left: 120px;
+  font-weight: bold;
+}
+
+.linksHeader a {
+  color: white;
+  list-style-type: none;
+  font-size: 9px;
+  padding: 3px;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+.linksHeader .three {
+  margin-right: 120px;
+}
+
+.containerPage {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerPage p {
+  font-size: 9px;
+  display: flex;
+  justify-content: start;
+}
+
+img {
+  max-width: 500px;
+  max-height: 300px;
+}
